@@ -28,18 +28,3 @@ export default auth;
 
 
 
-
-// middleware/auth.js
-
-// export const checkCompanyOwner = async (req, res, next) => {
-//   try {
-//     const company = await Company.findById(req.params.id);
-//     if (!company) return res.status(404).send('Company not found.');
-//     if (company.companyHR.toString() !== req.user.id) {
-//       return res.status(403).send('Access denied. Only the company owner can update this data.');
-//     }
-//     next();
-//   } catch (err) {
-//     res.status(400).send('Invalid request.');
-//   }
-// };

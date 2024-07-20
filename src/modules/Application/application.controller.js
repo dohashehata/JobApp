@@ -1,4 +1,4 @@
-// controllers/application.controller.js
+
 
 import Application from './application.model.js';
 import upload from '../../middleware/upload.js';
